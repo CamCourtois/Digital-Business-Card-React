@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    background-color: #23252C
+}
+
+.app-container{
+    width: 320px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #1A1B21;
+    color: white;
+}
+    
+
+.info-img{
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0
+}
+
+.info-text{
+    text-align: center;
+}
+
+.info-text > h1{
+    font-size: 1.5rem;
+}
+
+.info-text > h2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #F3BF99
+}
+
+.info-text > h3{
+    font-size: .8rem;
+    font-weight: 400
+}
+
+.social-btns{
+    text-align: center;
+}
+
+button{
+    margin: 8px;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+    width: 115px
+}
+
+button > i{
+    margin-right: 4px;
+    color: #1E1F26
+}
+
+.linkedin-btn{
+    color: white;
+    background-color: #5093E2
+}
+
+.linkedin-btn > i{
+    color: white
+}
+
+.body-content{
+    margin: 2rem
+}
+
+.body-content > h3{
+    font-size: 1rem;
+    margin-bottom: 0px;
+    
+}
+
+.body-content > p{
+    font-size: .8rem;
+    line-height: 1.1rem;
+    margin-top: 3px;
+    color: #DCDCDC
+}
+
+.footer{
+    background-color: #161619;
+    height: 64px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px
+    /* vertical-align: center */
+}
+
+.footer > i{
+    font-size: 35px;
+    color: #918E9B;
+    padding: 10px 10px;
+    margin-top: 5px
+    
+    
+}
